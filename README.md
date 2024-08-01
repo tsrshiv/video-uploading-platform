@@ -46,7 +46,7 @@ npm install
 bash
 Start the server:
 
-bash
+
 Copy code
 npm start
 API Endpoints

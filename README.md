@@ -34,14 +34,16 @@ Copy code
 npm install
 
 
- **env**
+ ## **env**
  Create a .env file in the root directory and add the following environment variables:
+ ```bash
 - MONGO_URI=your_mongodb_atlas_uri
 - CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 - CLOUDINARY_API_KEY=your_cloudinary_api_key
 - CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 - ACCESS_TOKEN_SECRET=your_access_token_secret
 - REFRESH_TOKEN_SECRET=your_refresh_token_secret
+bash
 Start the server:
 
 bash

@@ -53,11 +53,10 @@ API Endpoints
 User Routes
 
  ## **Register User**
-Register User
 
-URL: /api/users/register
-Method: POST
-Body:
+- URL: /api/users/register
+- Method: POST
+- Body:
 json
 Copy code
 {
@@ -65,19 +64,24 @@ Copy code
   "email": "abc.com",
   "username": "tsrshiv",
   "password": "password123"
-}
-Login User
 
-URL: /api/users/login
-Method: POST
-Body:
+}
+
+## **Login User**
+
+
+- URL: /api/users/login
+- Method: POST
+- Body:
 json
 Copy code
 {
   "email": "abc.com",
   "password": "password123"
+
 }
 Logout User
+## **Logout User**
 
 URL: /api/users/logout
 Method: POST

@@ -83,32 +83,43 @@ Copy code
 Logout User
 ## **Logout User**
 
-URL: /api/users/logout
-Method: POST
-Refresh Access Token
+- URL: /api/users/logout
+- Method: POST
 
-URL: /api/users/refresh-token
-Method: POST
-Change Password
+- 
 
-URL: /api/users/change-password
-Method: PUT
-Body:
+## **Refresh Access Token**
+
+- URL: /api/users/refresh-token
+- Method: POST
+
+
+  ## **Change Password**
+
+
+- URL: /api/users/change-password
+- Method: PUT
+- Body:
 json
 Copy code
 {
   "oldPassword": "oldpassword123",
   "newPassword": "newpassword123"
+
 }
-Get Current User
 
-URL: /api/users/me
-Method: GET
-Update Account Details
+ ## **Get Current User**
 
-URL: /api/users/update
-Method: PUT
-Body:
+- URL: /api/users/me
+- Method: GET
+
+  
+
+## **Update Account Details**
+
+- URL: /api/users/update
+- Method: PUT
+- Body:
 json
 Copy code
 {

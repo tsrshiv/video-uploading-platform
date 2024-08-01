@@ -1,7 +1,7 @@
-Video Uploading Platform
+#Video Uploading Platform
 This is a backend project for a video-uploading platform, utilizing Node.js, Express, MongoDB Atlas, and Cloudinary for file uploads. The platform supports user registration, login, video uploads, and other related functionalities.
 
-Features
+#Features
 User Registration and Authentication
 Video Uploading and Management
 User Profile Management
@@ -11,21 +11,23 @@ Commenting System
 Like System
 Watch History
 Health Check
-Technologies Used
+
+#Technologies Used
 Backend: Node.js, Express.js
 Database: MongoDB Atlas
 File Uploads: Cloudinary, Multer
 Authentication: JWT (JSON Web Tokens)
-Installation
+
+#Installation
 Clone the repository:
 
-bash
+#bash
 Copy code
 git clone https://github.com/yourusername/video-uploading-platform.git
 cd video-uploading-platform
 Install dependencies:
 
-bash
+#bash
 Copy code
 npm install
 Create a .env file in the root directory and add the following environment variables:
@@ -40,12 +42,13 @@ ACCESS_TOKEN_SECRET=your_access_token_secret
 REFRESH_TOKEN_SECRET=your_refresh_token_secret
 Start the server:
 
-bash
+#bash
 Copy code
 npm start
-API Endpoints
-User Routes
-Register User
+
+#API Endpoints
+#User Routes
+#Register User
 
 URL: /api/users/register
 Method: POST
@@ -53,12 +56,13 @@ Body:
 json
 Copy code
 {
-  "fullName": "John Doe",
-  "email": "john@example.com",
-  "username": "johndoe",
+  "fullName": "shivendra",
+  "email": "abc.com",
+  "username": "tsrshiv",
   "password": "password123"
 }
-Login User
+
+#Login User
 
 URL: /api/users/login
 Method: POST
@@ -66,10 +70,11 @@ Body:
 json
 Copy code
 {
-  "email": "john@example.com",
+  "email": "abc.com",
   "password": "password123"
 }
-Logout User
+
+#Logout User
 
 URL: /api/users/logout
 Method: POST
@@ -77,7 +82,8 @@ Refresh Access Token
 
 URL: /api/users/refresh-token
 Method: POST
-Change Password
+
+#Change Password
 
 URL: /api/users/change-password
 Method: PUT
@@ -88,11 +94,13 @@ Copy code
   "oldPassword": "oldpassword123",
   "newPassword": "newpassword123"
 }
-Get Current User
+
+#Get Current User
 
 URL: /api/users/me
 Method: GET
-Update Account Details
+
+#Update Account Details
 
 URL: /api/users/update
 Method: PUT
@@ -103,12 +111,14 @@ Copy code
   "fullName": "John Doe",
   "email": "john@example.com"
 }
-Update User Avatar
+
+#Update User Avatar
 
 URL: /api/users/update-avatar
 Method: PUT
 Form Data: avatar (file)
-Update User Cover Image
+
+#Update User Cover Image
 
 URL: /api/users/update-cover-image
 Method: PUT
@@ -117,11 +127,13 @@ Get User Channel Profile
 
 URL: /api/users/channel/:username
 Method: GET
-Get Watch History
+
+#Get Watch History
 
 URL: /api/users/watch-history
 Method: GET
-Other Routes
+
+#Other Routes
 Health Check
 URL: /api/healthcheck
 Method: GET

@@ -51,6 +51,8 @@ Copy code
 npm start
 API Endpoints
 User Routes
+
+ ## **Register User**
 Register User
 
 URL: /api/users/register

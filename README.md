@@ -112,8 +112,8 @@ Copy code-
 - Body:
 json
 Copy code- 
-  "fullName": "John Doe",
-  "email": "john@example.com"
+  "fullName": "shivendra",
+  "email": "shivendra.com"
 
 ## **Update User Avatar**
 

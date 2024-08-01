@@ -58,14 +58,11 @@ User Routes
 - Method: POST
 - Body:
 json
-Copy code
-{
+Copy code- 
   "fullName": "shivendra",
   "email": "abc.com",
   "username": "tsrshiv",
   "password": "password123"
-
-}
 
 ## **Login User**
 
@@ -74,19 +71,15 @@ Copy code
 - Method: POST
 - Body:
 json
-Copy code
-{
+Copy code- 
   "email": "abc.com",
   "password": "password123"
 
-}
 Logout User
 ## **Logout User**
 
 - URL: /api/users/logout
 - Method: POST
-
-- 
 
 ## **Refresh Access Token**
 
@@ -101,12 +94,9 @@ Logout User
 - Method: PUT
 - Body:
 json
-Copy code
-{
+Copy code- 
   "oldPassword": "oldpassword123",
   "newPassword": "newpassword123"
-
-}
 
  ## **Get Current User**
 
@@ -121,45 +111,58 @@ Copy code
 - Method: PUT
 - Body:
 json
-Copy code
-{
+Copy code- 
   "fullName": "John Doe",
   "email": "john@example.com"
-}
-Update User Avatar
 
-URL: /api/users/update-avatar
-Method: PUT
-Form Data: avatar (file)
-Update User Cover Image
+## **Update User Avatar**
 
-URL: /api/users/update-cover-image
-Method: PUT
-Form Data: coverImage (file)
-Get User Channel Profile
 
-URL: /api/users/channel/:username
-Method: GET
-Get Watch History
+- URL: /api/users/update-avatar
+- Method: PUT
+- Form Data: avatar (file)
 
-URL: /api/users/watch-history
-Method: GET
-Other Routes
-Health Check
-URL: /api/healthcheck
-Method: GET
-Controllers
-Comment Controller
-Dashboard Controller
-Healthcheck Controller
-Like Controller
-Playlist Controller
-Subscription Controller
-Tweet Controller
-User Controller
-Video Controller
-Utilities
-ApiError
-ApiResponse
-asyncHandler
-cloudinary
+  ## **Update User Cover Image**
+
+
+- URL: /api/users/update-cover-image
+- Method: PUT
+- Form Data: coverImage (file)
+
+  ## **Get User Channel Profile**
+
+
+- URL: /api/users/channel/:username
+- Method: GET
+
+  ## **Get Watch History**
+
+
+- URL: /api/users/watch-history
+- Method: GET
+
+  ## **  Other Routes**
+
+- Health Check
+- URL: /api/healthcheck
+- Method: GET
+
+ ## **Controllers**
+
+- Comment Controller
+- Dashboard Controller
+- Healthcheck Controller
+- Like Controller
+- Playlist Controller
+- Subscription Controller
+- Tweet Controller
+- User Controller
+- Video Controller
+
+  
+ ## **Utilities**
+
+- ApiError
+- ApiResponse
+- asyncHandler
+- cloudinary
